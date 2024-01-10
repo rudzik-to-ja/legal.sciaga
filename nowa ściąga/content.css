@@ -1,0 +1,69 @@
+.backgrand {
+  background-color: #f2e7f3;
+  display: flex;
+  justify-content: center;
+  height: 90px;
+  align-items: center;
+}
+
+.backgrand > h1 {
+  color: rgb(107, 10, 94);
+  font-size: 50px;
+  font-family: "Lemon", serif;
+}
+
+.biologia {
+  margin: none;
+}
+
+.spis-działów {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: rgb(163, 27, 122);
+  margin: 10px;
+  margin-top: 20px;
+  height: 80px;
+  width: 360px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+button:hover {
+  transform: scale(1.03);
+  transition: 450ms;
+}
+
+button > a > small {
+  color: #f2e7f3;
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+}
+
+button > small {
+  color: #f2e7f3;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.dzial {
+  background-color: #385e41;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  width: 800px;
+  margin-top: 10px;
+}
+
+div > a > h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+.tematy {
+  margin-left: 0;
+}

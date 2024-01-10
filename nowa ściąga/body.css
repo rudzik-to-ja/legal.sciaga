@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  background-color: #161616;
+}
+
+.content {
+  color: rgb(255, 255, 255);
+}
+
+.SG {
+  background-image: url(zdj3.webp);
+  margin: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.SG > h1 {
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  margin-left: 50px;
+  font-family: "Lemon", serif;
+}
+
+small,
+h1,
+h2,
+h3 {
+  color: white;
+  margin-left: 0;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+ul > li > a > small {
+  font-family: "Poppins", sans-serif;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+div {
+  margin-left: 0;
+}

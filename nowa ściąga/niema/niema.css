@@ -1,0 +1,29 @@
+body {
+  margin: none;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-image: url(gwiazdy.jpg);
+  margin: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+div {
+  height: 720px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
