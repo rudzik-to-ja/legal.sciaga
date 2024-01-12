@@ -4,6 +4,7 @@
   justify-content: center;
   height: 90px;
   align-items: center;
+  flex-basis: 100%;
 }
 
 .backgrand > h1 {
@@ -56,7 +57,7 @@ button > small {
   height: 60px;
   display: flex;
   align-items: center;
-  width: 800px;
+  flex-basis: 100%;
   margin-top: 10px;
 }
 
@@ -66,4 +67,71 @@ div > a > h3 {
 
 .tematy {
   margin-left: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    display: flex;
+    width: 100vw;
+  }
+  .backgrand {
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: 100vw;
+    width: 100%;
+  }
+
+  .spis-działów {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  a,
+  span,
+  small {
+    font-size: 15px;
+  }
+
+  button {
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 2;
+    height: fit-content;
+    width: 199px;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  .spis-działów {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .dzial {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .biologia {
+    margin-top: 100px;
+  }
+
+  img {
+    width: 100vw;
+    height: auto;
+  }
+
+  .SG > h1 {
+    font-size: 40px;
+  }
+
+  div.biologia {
+    margin: 0;
+  }
 }
